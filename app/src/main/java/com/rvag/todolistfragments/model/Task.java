@@ -26,6 +26,19 @@ public class Task {
         Image = image;
     }
 
+    public String getDescripcion() {
+        return Descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        Descripcion = descripcion;
+    }
+
+    public Task(String descripcion) {
+        Descripcion = descripcion;
+    }
+
     private String Name;
     private String Image;
+    private String Descripcion;
 }
